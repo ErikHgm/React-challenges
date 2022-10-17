@@ -1,5 +1,6 @@
 import css from './App.module.css';
-import NavBarForm from './components/NavBarForm';
+import Content from './components/Content';
+//import NavBarForm from './components/NavBarForm';
 //import Sidebar from './components/Sidebar';
 //import NavBarSimple from './components/NavBarSimple';
 
@@ -7,8 +8,8 @@ import NavBarForm from './components/NavBarForm';
 function App() {
   return (
     <div className={css.App}>
-      <NavBarForm />
-    </div>
+      <Content />
+   </div>
   );
 }
 
