@@ -39,6 +39,7 @@ export class Content extends Component {
     render() {
         return (
             <div className={css.Content}>
+
                 <div className={css.TitleBar}>
                     <h1>My Photos</h1>
                     <form>
